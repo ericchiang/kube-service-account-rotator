@@ -1,0 +1,59 @@
+hash: ee570cf0296b58e585107f0cb033efb4c630dcbc7ac4eba88f3c9976bf0ed091
+updated: 2017-01-24T23:19:51.890817758-08:00
+imports:
+- name: github.com/ericchiang/k8s
+  version: 7625b89e05e472b7b148359013b08a38aa86e364
+  subpackages:
+  - api/resource
+  - api/unversioned
+  - api/v1
+  - apis/apps/v1alpha1
+  - apis/apps/v1beta1
+  - apis/authentication/v1beta1
+  - apis/authorization/v1beta1
+  - apis/autoscaling/v1
+  - apis/batch/v1
+  - apis/batch/v2alpha1
+  - apis/certificates/v1alpha1
+  - apis/extensions/v1beta1
+  - apis/imagepolicy/v1alpha1
+  - apis/policy/v1alpha1
+  - apis/policy/v1beta1
+  - apis/rbac/v1alpha1
+  - apis/storage/v1beta1
+  - runtime
+  - util/intstr
+  - watch/versioned
+- name: github.com/ghodss/yaml
+  version: 04f313413ffd65ce25f2541bfd2b2ceec5c0908c
+- name: github.com/golang/protobuf
+  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
+  subpackages:
+  - proto
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/sirupsen/logrus
+  version: d26492970760ca5d33129d2d799e34be5c4782eb
+- name: github.com/Sirupsen/logrus
+  version: 081307d9bc1364753142d5962fc1d795c742baaf
+- name: github.com/spf13/cobra
+  version: 0f056af21f5f368e5b0646079d0094a2c64150f7
+- name: github.com/spf13/pflag
+  version: a232f6d9f87afaaa08bafaff5da685f974b83313
+- name: golang.org/x/net
+  version: fb93926129b8ec0056f2f458b1f519654814edf0
+  subpackages:
+  - http2
+  - http2/hpack
+- name: golang.org/x/sys
+  version: d4feaf1a7e61e1d9e79e6c4e76c6349e9cab0a03
+  subpackages:
+  - unix
+- name: gopkg.in/square/go-jose.v2
+  version: 296c7f1463ec9b712176dc804dea0173d06dc728
+  subpackages:
+  - cipher
+  - json
+- name: gopkg.in/yaml.v2
+  version: 14227de293ca979cf205cd88769fe71ed96a97e2
+testImports: []
